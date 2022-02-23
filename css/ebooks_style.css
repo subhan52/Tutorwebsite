@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url(../img/ebooks.jpg) no-repeat center;
+    background-size: cover;
+}
+.navbar {
+    padding: 1.3rem 8rem;
+    position: relative;
+}
+.navbar .navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#mycontent > ul > li:nth-child(n) > a{
+    color: white;
+    font-size: 1.1rem;
+    padding: 0 1.7rem;
+}
+#mycontent > ul > li:nth-child(n) > a:hover, #mycontent > ul > li:nth-child(n) > a:hover{
+    color: rgb(248, 41, 93);
+}
+#mycontent form button{
+    font-weight: 400;
+    padding: 0.5rem 1.5rem;
+    width: 170px;
+    background-color: rgb(248, 41, 93);
+}
+.sel #oneline a,
+.sel #oneline p{
+    display: inline;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding-left: 0.8rem;
+}
+.sel #oneline{
+    padding: 5rem 0;
+}
+.sel #oneline a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.sel2{
+    margin-top: -200px;
+    padding: 40px;
+}
+.sel2 .form-inline{
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(248, 41, 93);
+}
+.sel2 button{
+    font-weight: 200;
+    padding: 0.5rem 1.5rem;
+    width: 170px;
+    background-color: black;
+}
+.sel2 button:hover{
+    color: white;
+}
+.sel2 input{
+    background: #f2f2f2;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+.sel2 input::placeholder{
+    font-size: 0.7rem;
+}
+.sel2 .x .container{
+    width: 400px;
+}
+.sel2 .x .container h4{
+    color: white;
+    border-bottom: 1px solid black;
+    background-color: rgb(248, 41, 93);
+    margin-bottom: 0;
+}
+.ebookform .container .col-md-8 .container{
+    background-color: rgb(248, 41, 93);
+}
+.ebookform form{
+    margin: auto;
+    padding: 60px 40px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-content: center;
+}
+.ebookform button{
+    background-color: rgb(248, 41, 93);
+    color: white;
+    font-size: 0.5rem;
+    width: 170px;
+}
+.ebookform button:hover{
+    color: white;
+}
+.ebookform input{
+    height: 50px;
+    background: #f2f2f2;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+.ebookform input::placeholder{
+    font-size: 0.7rem;
+}
+.ebookform input:focus{
+    border-bottom: 2px solid rgb(248, 41, 93);
+}
+.ebookform .sec h3{
+    border-bottom: 3px solid rgb(248, 41, 93);
+}
+.sec .container .container{
+    padding: 100px 0 50px 50px;
+}
+.sec ul li{
+    color: rgb(248, 41, 93);
+}
+.sec ul li small{
+    color: grey;
+}
+.sec .icons a{
+    color: grey;
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+footer .jumbotron{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1)), rgb(166, 248, 58);
+    padding-bottom: 0;
+}
+footer li a{
+    text-decoration: none;
+}
+footer li a:hover{
+    color:red;
+    text-decoration: none;
+}
+body > footer > div > div > div:nth-child(4) > ul > li > small{
+    color: grey;
+}
